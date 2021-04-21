@@ -18,6 +18,22 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    int value = in.nextInt();
     
+    for (int i = 0; i < value; i++)
+    {
+      StringBuilder stringb = new StringBuilder();
+
+      for (int e = 0; e < (value - i ); e++)
+    {
+      stringb.append("*");
+    }
+
+    System.out.println(stringb);
+    
+    }
+    
+    
+      
   }
 }
